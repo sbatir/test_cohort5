@@ -1,0 +1,32 @@
+
+
+Q.1	 Mark the below algorithms as supervised vs unsupervised?
+●	k-means
+●	GMM
+●	PCA
+●	Linear Regression
+●	Logistic Regression
+●	Decision Tree
+●	XGBoost
+●	Random Forest
+
+●	 k-means: Unsupervised
+●	GMM: Unsupervised
+●	PCA: Unsupervised
+●	Linear Regression: Supervised
+●	Logistic Regression: Supervised
+●	Decision Tree: Supervised
+●	XGBoost: Supervised
+●	Random Forest: Supervised
+
+Q.2	Identify which type of decision tree will you use in the following situations? (Hint: Regression or Classification)
+To fit a sine curve with additional noisy observations
+To predict the chance of survival of passengers based on passenger attributes given the titanic disaster dataset.
+
+To fit a sine curve with additional noisy observations: Decision Tree - Regression
+To predict the chance of survival pf passengers based on passenger attributes given the titanic disaster dataset: Decision Tree - Classification
+
+Q.3	Does Random forest affect bias or variance in any manner in comparison to the decision tree and why?
+Random forest reduces variance or overly complex model by using different samples for trees and by building/combining smaller decision trees. Each tree fits or overfits a part of the training set and one can expect the overfitting to partially reduce during the averaging.
+Q.4	What kind of hyperplane can you expect from logistic regression and decision tree in the same feature space?
+Decision Trees bisect the space into smaller and smaller regions (more complex feature interactions), whereas Logistic Regression fits a single line (linear relationship) to divide the space exactly into two.
